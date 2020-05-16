@@ -1,20 +1,7 @@
-# School Bell
-A botched discod bot.
-(For myself to look back in a few years with pain)
+# TLHBOT
 
-![alt text](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/emoji-one/104/bell_1f514.png)
+Very cool chess bot.
 
-(Intended for Singapore American School students)
-
-
-
-Functionalities
-* Custom text reponses
-* School bell
-* School schedule
-* Customized bot activity
-
-Add your token as token.txt to the reference file.
-
-
-*Image under the free liscence from joypixels.
+Uses lichess openingbook
+Endgame 7-piece tables
+Minimax with alpha-pruning
