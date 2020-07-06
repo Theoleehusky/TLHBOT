@@ -1,12 +1,15 @@
 import berserk
-from Game import Game
 import time
+from Game import Game
 
-session = berserk.TokenSession('rwerWlJJoAuY1Wug')
+with open("token.txt", 'r') as f:
+    token = f.read()
+
+session = berserk.TokenSession(token)
 client = berserk.Client(session=session)
 
-#
-client.challenges.create('theoleehusky', False, 300, 3, color='white')
+
+a = client.challenges.create('theoleehusky', False, 300, 3, color='white')
 # print(client.challenges.create_open(60, 3))
 
 for event in client.bots.stream_incoming_events():
