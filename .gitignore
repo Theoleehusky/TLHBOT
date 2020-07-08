@@ -2,5 +2,5 @@
 __pycache__
 venv
 **/token.txt
-board
+**/board/**
 first.py
