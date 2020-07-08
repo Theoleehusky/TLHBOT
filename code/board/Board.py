@@ -1,4 +1,4 @@
-from board.pieces import *
+from pieces import *
 
 
 class Board:
